@@ -49,3 +49,20 @@ nav a {
     color: #333;
     text-decoration: underline;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
